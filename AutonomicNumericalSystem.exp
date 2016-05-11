@@ -1,5 +1,5 @@
 <ver>18.3</ver>
-<efn>C:\Experiments\ans-experiment-2\AutonomicNumericalSystem.exp</efn>
+<efn>C:\Experiments\2016_PLASSOVA_Aproximal_numerical_system\AutonomicNumericalSystem.exp</efn>
 <author>Michael Tesar</author>
 <con>
 <pause>P</pause>
@@ -34,10 +34,10 @@
 <lfn></lfn>
 </docs>
 <dp_list></dp_list>
-<dsd>C:\Experiments\ans-experiment-2\stimuli</dsd>
+<dsd>C:\Experiments\2016_PLASSOVA_Aproximal_numerical_system\stimuli</dsd>
 <dxv>8</dxv>
 <efs>
-<filename>C:\Experiments\ans-experiment-2\fishes.sce</filename>
+<filename>C:\Experiments\2016_PLASSOVA_Aproximal_numerical_system\fishes.sce</filename>
 </efs>
 <exclusive_mouse>1</exclusive_mouse>
 <exp_version>3.0.0</exp_version>
@@ -105,7 +105,7 @@
 <idt>0</idt>
 <ilc>0</ilc>
 <ip_chans></ip_chans>
-<lfd>C:\Experiments\ans-experiment-2\logs</lfd>
+<lfd>C:\Experiments\2016_PLASSOVA_Aproximal_numerical_system\logs</lfd>
 <lnb>2</lnb>
 <lno>3</lno>
 <log>
@@ -116,7 +116,7 @@
 <pien>0</pien>
 <set_def_file></set_def_file>
 <stimulus_list>0</stimulus_list>
-<subject_id>ANS-01tes8</subject_id>
+<subject_id>ANS-01test9</subject_id>
 <subject_id_pol>2</subject_id_pol>
 <video_list>0</video_list>
 <warnings>1</warnings>
@@ -467,7 +467,7 @@
 <offset>12</offset>
 <offset>13</offset>
 </idv>
-<sfn>C:\Experiments\ans-experiment-2\fishes.sce</sfn>
+<sfn>C:\Experiments\2016_PLASSOVA_Aproximal_numerical_system\fishes.sce</sfn>
 </sce>
 <sct>
 <capture_device>
