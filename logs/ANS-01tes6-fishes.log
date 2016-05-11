@@ -1,0 +1,49 @@
+Scenario - 
+Logfile written - 05/11/2016 13:07:57
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+ANS-01tes6	2	Picture	b_2.40	15459	0	208	15040	208	0	next	hit	2
+ANS-01tes6	2	Response	0	44046	28588	1
+ANS-01tes6	5	Picture	r_2.40	59498	0	1	10666	1	0	next	hit	4
+ANS-01tes6	5	Response	0	70136	10638	1
+ANS-01tes6	8	Picture	b_2.40	85330	0	1	6833	1	0	next	hit	6
+ANS-01tes6	8	Response	0	92056	6725	1
+ANS-01tes6	11	Picture	b_2.40	107330	0	1	5000	1	0	next	incorrect	8
+ANS-01tes6	11	Response	0	112296	4966	1
+ANS-01tes6	14	Picture	r_2.40	127496	0	1	11000	1	0	next	incorrect	10
+ANS-01tes6	14	Response	0	138465	10969	1
+ANS-01tes6	17	Picture	b_2.40	153662	0	1	8666	1	0	next	hit	12
+ANS-01tes6	17	Response	0	162225	8563	1
+ANS-01tes6	20	Picture	r_2.40	177494	0	1	3833	1	0	next	hit	14
+ANS-01tes6	20	Response	0	181265	3770	1
+ANS-01tes6	23	Picture	r_2.40	196494	0	1	10500	1	0	next	hit	16
+ANS-01tes6	23	Response	0	206864	10371	1
+ANS-01tes6	26	Picture	r_2.40	222159	0	1	7500	1	0	next	hit	18
+ANS-01tes6	26	Response	0	229594	7434	1
+ANS-01tes6	29	Picture	b_2.40	244825	0	1	4167	1	0	next	hit	20
+ANS-01tes6	29	Response	0	248873	4048	1
+ANS-01tes6	34	Picture	b_2.30	292491	0	1	15166	1	0	next	hit	22
+ANS-01tes6	34	Response	0	316952	24462	1
+ANS-01tes6	37	Picture	b_2.30	332323	0	1	8000	1	0	next	hit	24
+ANS-01tes6	37	Response	0	340162	7840	1
+ANS-01tes6	40	Picture	r_2.30	355488	0	1	6167	1	0	next	hit	26
+ANS-01tes6	40	Response	0	361522	6033	1
+ANS-01tes6	43	Picture	r_2.30	376821	0	1	6166	1	0	next	hit	28
+ANS-01tes6	43	Response	0	382961	6140	1
+ANS-01tes6	46	Picture	b_2.30	398154	0	1	6333	1	0	next	hit	30
+ANS-01tes6	46	Response	0	404411	6257	1
+ANS-01tes6	49	Picture	b_2.30	419653	0	1	13666	1	0	next	hit	32
+ANS-01tes6	49	Response	0	433211	13558	1
+ANS-01tes6	52	Picture	b_2.30	448486	0	1	11333	1	0	next	hit	34
+ANS-01tes6	52	Response	0	459780	11295	1
+ANS-01tes6	55	Picture	r_2.30	474985	0	1	7000	1	0	next	hit	36
+ANS-01tes6	55	Response	0	481860	6875	1
+ANS-01tes6	58	Picture	r_2.30	497151	0	1	11166	1	0	next	hit	38
+ANS-01tes6	58	Response	0	508180	11029	1
+ANS-01tes6	61	Picture	r_2.30	523483	0	1	7833	1	0	next	hit	40
+ANS-01tes6	61	Response	0	531139	7656	1
+ANS-01tes6	66	Picture	b_2.20	555982	0	1	7333	1	0	next	hit	42
+ANS-01tes6	66	Response	0	563229	7246	1
+ANS-01tes6	69	Picture	b_2.20	578481	0	1	24333	1	0	next	miss	0
+ANS-01tes6	69	Quit		592049	13568	NA

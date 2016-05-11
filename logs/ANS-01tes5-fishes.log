@@ -1,0 +1,46 @@
+Scenario - 
+Logfile written - 05/11/2016 13:06:14
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+ANS-01tes5	2	Picture	b_2.40	15467	0	200	15032	200	0	next	incorrect	2
+ANS-01tes5	2	Response	0	35894	20427	1
+ANS-01tes5	5	Picture	r_2.40	51332	0	1	8833	1	0	next	hit	4
+ANS-01tes5	5	Response	0	60054	8722	1
+ANS-01tes5	8	Picture	r_2.40	75331	0	1	7166	1	0	next	hit	6
+ANS-01tes5	8	Response	0	82464	7133	1
+ANS-01tes5	11	Picture	b_2.40	97663	0	1	6167	1	0	next	incorrect	8
+ANS-01tes5	11	Response	0	103743	6080	1
+ANS-01tes5	14	Picture	r_2.40	118996	0	1	5833	1	0	next	incorrect	10
+ANS-01tes5	14	Response	0	124793	5797	1
+ANS-01tes5	17	Picture	b_2.40	139995	0	1	4667	1	0	next	incorrect	12
+ANS-01tes5	17	Response	0	144633	4637	1
+ANS-01tes5	20	Picture	r_2.40	159828	0	1	5000	1	0	next	incorrect	14
+ANS-01tes5	20	Response	0	164713	4884	1
+ANS-01tes5	23	Picture	r_2.40	179994	0	1	10333	1	0	next	incorrect	16
+ANS-01tes5	23	Response	0	190152	10158	1
+ANS-01tes5	26	Picture	b_2.40	205493	0	1	6500	1	0	next	incorrect	18
+ANS-01tes5	26	Response	0	211912	6419	1
+ANS-01tes5	29	Picture	b_2.40	227159	0	1	5167	1	0	next	incorrect	20
+ANS-01tes5	29	Response	0	232241	5082	1
+ANS-01tes5	34	Picture	r_2.50	275824	0	1	7666	1	0	next	incorrect	22
+ANS-01tes5	34	Response	0	283381	7556	1
+ANS-01tes5	37	Picture	r_2.50	298657	0	1	11666	1	0	next	incorrect	24
+ANS-01tes5	37	Response	0	310170	11513	1
+ANS-01tes5	40	Picture	b_2.50	325490	0	1	9166	1	0	next	incorrect	26
+ANS-01tes5	40	Response	0	334570	9080	1
+ANS-01tes5	43	Picture	b_2.50	349822	0	1	7333	1	0	next	incorrect	28
+ANS-01tes5	43	Response	0	357060	7237	1
+ANS-01tes5	46	Picture	b_2.50	372321	0	1	6000	1	0	next	incorrect	30
+ANS-01tes5	46	Response	0	378179	5858	1
+ANS-01tes5	49	Picture	r_2.50	393487	0	1	5333	1	0	next	incorrect	32
+ANS-01tes5	49	Response	0	398659	5172	1
+ANS-01tes5	52	Picture	b_2.50	413987	0	1	3333	1	0	next	incorrect	34
+ANS-01tes5	52	Response	0	417228	3242	1
+ANS-01tes5	55	Picture	b_2.50	432486	0	1	8000	1	0	next	incorrect	36
+ANS-01tes5	55	Response	0	440428	7942	1
+ANS-01tes5	58	Picture	r_2.50	455652	0	1	6500	1	0	next	hit	38
+ANS-01tes5	58	Response	0	462028	6376	1
+ANS-01tes5	61	Picture	r_2.50	477318	0	1	6333	1	0	next	hit	40
+ANS-01tes5	61	Response	0	483548	6230	1
+ANS-01tes5	63	Quit		506828	23177	NA

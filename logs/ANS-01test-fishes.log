@@ -1,0 +1,180 @@
+Scenario - 
+Logfile written - 04/07/2016 15:25:06
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+ANS-01test	0	Response	201	18	18	-16
+ANS-01test	0	Response	201	18	18	-16
+ANS-01test	6	Picture	r_2.40	558818	0	1	15166	1	0	next	hit	4
+ANS-01test	6	Response	201	576056	17239	1
+ANS-01test	8	Picture	b_2.40	591317	0	1	10500	1	0	next	hit	6
+ANS-01test	8	Response	202	601726	10409	1
+ANS-01test	10	Picture	b_2.40	616983	0	1	11666	1	0	next	incorrect	8
+ANS-01test	10	Response	201	628635	11653	1
+ANS-01test	12	Picture	b_2.40	643815	0	1	10500	1	0	next	hit	10
+ANS-01test	12	Response	202	654165	10350	1
+ANS-01test	14	Picture	r_2.40	669481	0	1	7333	1	0	next	hit	12
+ANS-01test	14	Response	201	676735	7254	1
+ANS-01test	16	Picture	b_2.40	691980	0	1	8166	1	0	next	hit	14
+ANS-01test	16	Response	202	700004	8024	1
+ANS-01test	18	Picture	r_2.40	715313	0	1	8166	1	0	next	hit	16
+ANS-01test	18	Response	201	723364	8051	1
+ANS-01test	20	Picture	r_2.40	738646	0	1	7666	1	0	next	hit	18
+ANS-01test	20	Response	201	746254	7608	1
+ANS-01test	22	Picture	b_2.40	761479	0	1	9500	1	0	next	hit	20
+ANS-01test	22	Response	202	770804	9325	1
+ANS-01test	24	Picture	r_2.40	786144	0	1	8500	1	0	next	hit	22
+ANS-01test	24	Response	201	794453	8309	1
+ANS-01test	28	Picture	b_2.30	822310	0	1	9000	1	0	next	hit	24
+ANS-01test	28	Response	202	831213	8903	1
+ANS-01test	30	Picture	r_2.30	846476	0	1	7500	1	0	next	hit	26
+ANS-01test	30	Response	201	853823	7347	1
+ANS-01test	32	Picture	b_2.30	869142	0	1	7333	1	0	next	hit	28
+ANS-01test	32	Response	202	876412	7270	1
+ANS-01test	34	Picture	r_2.30	891641	0	1	15166	1	0	next	hit	30
+ANS-01test	34	Response	201	909802	18160	1
+ANS-01test	36	Picture	b_2.30	925140	0	1	14166	1	0	next	hit	32
+ANS-01test	36	Response	202	939192	14051	1
+ANS-01test	38	Picture	r_2.30	954473	0	1	9666	1	0	next	hit	34
+ANS-01test	38	Response	201	964001	9528	1
+ANS-01test	40	Picture	b_2.30	979306	0	1	8666	1	0	next	hit	36
+ANS-01test	40	Response	202	987901	8595	1
+ANS-01test	42	Picture	r_2.30	1003138	0	1	6833	1	0	next	hit	38
+ANS-01test	42	Response	201	1009841	6703	1
+ANS-01test	44	Picture	r_2.30	1025138	0	1	15166	1	0	next	hit	40
+ANS-01test	44	Response	201	1040850	15713	1
+ANS-01test	46	Picture	b_2.30	1056137	0	1	15166	1	0	next	hit	42
+ANS-01test	46	Response	202	1079860	23723	1
+ANS-01test	50	Picture	b_2.20	1123635	0	1	8500	1	0	next	hit	44
+ANS-01test	50	Response	202	1131999	8364	1
+ANS-01test	52	Picture	b_2.20	1147301	0	1	6333	1	0	next	hit	46
+ANS-01test	52	Response	202	1153559	6258	1
+ANS-01test	54	Picture	b_2.20	1168800	0	1	10500	1	0	next	hit	48
+ANS-01test	54	Response	202	1179269	10469	1
+ANS-01test	56	Picture	r_2.20	1194466	0	1	6833	1	0	next	hit	50
+ANS-01test	56	Response	201	1201248	6782	1
+ANS-01test	58	Picture	b_2.20	1216466	0	1	8666	1	0	next	hit	52
+ANS-01test	58	Response	202	1225008	8543	1
+ANS-01test	60	Picture	r_2.20	1240298	0	1	6333	1	0	next	hit	54
+ANS-01test	60	Response	201	1246568	6270	1
+ANS-01test	62	Picture	r_2.20	1261798	0	1	7500	1	0	next	hit	56
+ANS-01test	62	Response	201	1269238	7440	1
+ANS-01test	64	Picture	r_2.20	1284464	0	1	7500	1	0	next	hit	58
+ANS-01test	64	Response	201	1291798	7334	1
+ANS-01test	66	Picture	b_2.20	1307130	0	1	7333	1	0	next	hit	60
+ANS-01test	66	Response	202	1314337	7208	1
+ANS-01test	68	Picture	r_2.20	1329629	0	1	5500	1	0	next	hit	62
+ANS-01test	68	Response	201	1335077	5448	1
+ANS-01test	72	Picture	r_2.10	1362795	0	1	7833	1	0	next	incorrect	64
+ANS-01test	72	Response	202	1370586	7792	1
+ANS-01test	74	Picture	r_2.10	1385794	0	1	4333	1	0	next	hit	66
+ANS-01test	74	Response	201	1390016	4222	1
+ANS-01test	76	Picture	b_2.10	1405294	0	1	4833	1	0	next	hit	68
+ANS-01test	76	Response	202	1409996	4702	1
+ANS-01test	78	Picture	b_2.10	1425293	0	1	7500	1	0	next	hit	70
+ANS-01test	78	Response	202	1432716	7423	1
+ANS-01test	80	Picture	r_2.10	1447959	0	1	7666	1	0	next	hit	72
+ANS-01test	80	Response	201	1455585	7626	1
+ANS-01test	82	Picture	r_2.10	1470792	0	1	8000	1	0	next	hit	74
+ANS-01test	82	Response	201	1478625	7833	1
+ANS-01test	84	Picture	b_2.10	1493958	0	1	7166	1	0	next	hit	76
+ANS-01test	84	Response	202	1500965	7007	1
+ANS-01test	86	Picture	b_2.10	1516290	0	1	7833	1	0	next	incorrect	78
+ANS-01test	86	Response	201	1524004	7714	1
+ANS-01test	88	Picture	b_2.10	1539290	0	1	6167	1	0	next	hit	80
+ANS-01test	88	Response	202	1545414	6125	1
+ANS-01test	90	Picture	r_2.10	1560623	0	1	7500	1	0	next	hit	82
+ANS-01test	90	Response	201	1568034	7412	1
+ANS-01test	94	Picture	b_2.00	1592622	0	1	6500	1	0	next	hit	84
+ANS-01test	94	Response	202	1599014	6392	1
+ANS-01test	96	Picture	b_2.00	1614288	0	1	6500	1	0	next	hit	86
+ANS-01test	96	Response	202	1620763	6476	1
+ANS-01test	98	Picture	b_2.00	1635954	0	1	15166	1	0	next	hit	88
+ANS-01test	98	Response	202	1737622	101668	1
+ANS-01test	100	Picture	r_2.00	1752950	0	1	7667	1	0	next	hit	90
+ANS-01test	100	Response	201	1760532	7581	1
+ANS-01test	102	Picture	r_2.00	1775783	0	1	10333	1	0	next	hit	92
+ANS-01test	102	Response	201	1786042	10258	1
+ANS-01test	104	Picture	r_2.00	1801282	0	1	8333	1	0	next	hit	94
+ANS-01test	104	Response	201	1809491	8209	1
+ANS-01test	106	Picture	b_2.00	1824782	0	1	7333	1	0	next	hit	96
+ANS-01test	106	Response	202	1831941	7160	1
+ANS-01test	108	Picture	r_2.00	1847281	0	1	10666	1	0	next	hit	98
+ANS-01test	108	Response	201	1857881	10600	1
+ANS-01test	110	Picture	r_2.00	1873114	0	1	13000	1	0	next	hit	100
+ANS-01test	110	Response	201	1886020	12907	1
+ANS-01test	112	Picture	b_2.00	1901280	0	1	7500	1	0	next	hit	102
+ANS-01test	112	Response	202	1908750	7470	1
+ANS-01test	116	Picture	b_1.90	1933279	0	1	8166	1	0	next	hit	104
+ANS-01test	116	Response	202	1941320	8041	1
+ANS-01test	118	Picture	r_1.90	1956611	0	1	5166	1	0	next	hit	106
+ANS-01test	118	Response	201	1961669	5058	1
+ANS-01test	120	Picture	b_1.90	1976944	0	1	7500	1	0	next	hit	108
+ANS-01test	120	Response	202	1984319	7375	1
+ANS-01test	122	Picture	r_1.90	1999610	0	1	6500	1	0	next	hit	110
+ANS-01test	122	Response	201	2005939	6329	1
+ANS-01test	124	Picture	b_1.90	2021276	0	1	15166	1	0	next	hit	112
+ANS-01test	124	Response	202	2036678	15402	1
+ANS-01test	126	Picture	r_1.90	2051942	0	1	9000	1	0	next	hit	114
+ANS-01test	126	Response	201	2060858	8916	1
+ANS-01test	128	Picture	r_1.90	2076108	0	1	10166	1	0	next	hit	116
+ANS-01test	128	Response	201	2086238	10130	1
+ANS-01test	130	Picture	r_1.90	2101440	0	1	5500	1	0	next	hit	118
+ANS-01test	130	Response	201	2106908	5467	1
+ANS-01test	132	Picture	b_1.90	2122107	0	1	8500	1	0	next	incorrect	120
+ANS-01test	132	Response	201	2130537	8431	1
+ANS-01test	134	Picture	b_1.90	2145773	0	1	8000	1	0	next	hit	122
+ANS-01test	134	Response	202	2153727	7955	1
+ANS-01test	138	Picture	b_1.80	2178438	0	1	8333	1	0	next	incorrect	124
+ANS-01test	138	Response	201	2186727	8288	1
+ANS-01test	140	Picture	b_1.80	2201938	0	1	7666	1	0	next	hit	126
+ANS-01test	140	Response	202	2209446	7509	1
+ANS-01test	142	Picture	b_1.80	2224770	0	1	7833	1	0	next	hit	128
+ANS-01test	142	Response	202	2232466	7696	1
+ANS-01test	144	Picture	b_1.80	2247770	0	1	6333	1	0	next	hit	130
+ANS-01test	144	Response	202	2254056	6286	1
+ANS-01test	146	Picture	r_1.80	2269269	0	1	7500	1	0	next	incorrect	132
+ANS-01test	146	Response	202	2276616	7346	1
+ANS-01test	148	Picture	r_1.80	2291935	0	1	5666	1	0	next	hit	134
+ANS-01test	148	Response	201	2297545	5610	1
+ANS-01test	150	Picture	b_1.80	2312768	0	1	6333	1	0	next	hit	136
+ANS-01test	150	Response	202	2318935	6167	1
+ANS-01test	152	Picture	r_1.80	2334267	0	1	5333	1	0	next	hit	138
+ANS-01test	152	Response	201	2339535	5268	1
+ANS-01test	154	Picture	r_1.80	2354767	0	1	11166	1	0	next	hit	140
+ANS-01test	154	Response	201	2365795	11028	1
+ANS-01test	156	Picture	r_1.80	2381099	0	1	7666	1	0	next	hit	142
+ANS-01test	156	Response	201	2388604	7505	1
+ANS-01test	160	Picture	r_1.70	2416432	0	1	5666	1	0	next	hit	144
+ANS-01test	160	Response	201	2422074	5642	1
+ANS-01test	162	Picture	r_1.70	2437264	0	1	7333	1	0	next	incorrect	146
+ANS-01test	162	Response	202	2444454	7189	1
+ANS-01test	164	Picture	b_1.70	2459764	0	1	15166	1	0	next	incorrect	148
+ANS-01test	164	Response	201	2524572	64809	1
+ANS-01test	166	Picture	b_1.70	2539761	0	1	9666	1	0	next	hit	150
+ANS-01test	166	Response	202	2549382	9621	1
+ANS-01test	168	Picture	b_1.70	2564594	0	1	15166	1	0	next	hit	152
+ANS-01test	168	Response	202	2581452	16858	1
+ANS-01test	170	Picture	r_1.70	2596760	0	1	15166	1	0	next	hit	154
+ANS-01test	170	Response	201	2614981	18222	1
+ANS-01test	172	Picture	r_1.70	2630259	0	1	15166	1	0	next	hit	156
+ANS-01test	172	Response	201	2651771	21512	1
+ANS-01test	174	Picture	b_1.70	2667091	0	1	15166	1	0	next	hit	158
+ANS-01test	174	Response	202	2684881	17789	1
+ANS-01test	176	Picture	b_1.70	2700090	0	1	15166	1	0	next	hit	160
+ANS-01test	176	Response	202	2721670	21580	1
+ANS-01test	178	Picture	r_1.70	2736923	0	1	15166	1	0	next	hit	162
+ANS-01test	178	Response	201	2757230	20307	1
+ANS-01test	182	Picture	r_1.60	2800921	0	1	10000	1	0	next	hit	164
+ANS-01test	182	Response	201	2810879	9959	1
+ANS-01test	184	Picture	r_1.60	2826087	0	1	12833	1	0	next	hit	166
+ANS-01test	184	Response	201	2838749	12662	1
+ANS-01test	186	Picture	b_1.60	2854086	0	1	7000	1	0	next	hit	168
+ANS-01test	186	Response	202	2861029	6943	1
+ANS-01test	188	Picture	r_1.60	2876252	0	1	15166	1	0	next	hit	170
+ANS-01test	188	Response	201	40727970	37851718	1
+ANS-01test	189	Quit		40740772	12747	NA
+
+The following output port codes were not sent because of a conflict on the port.
+Port	Code	Time(ms)
+1	201	0.131

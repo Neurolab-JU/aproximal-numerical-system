@@ -1,0 +1,235 @@
+#===========================#
+# Instructions presentation #
+#===========================#
+#INSTRUCTION_GENERAL.present();
+#INSTRUCTION_FISHES.present();
+
+/* Create vector for randomizing
+ * feedback for childer. This vector
+ * is shuffled below in every turn of
+ * iteration. It is boolean witch determines
+ * sounds which childern listen. */
+array <bool> feedback_randomize[4] = {true, false, false, false};
+
+# Shuffle stimuli arrays in log branches
+p_150.shuffle();
+p_140.shuffle();
+p_130.shuffle();
+p_120.shuffle();
+p_110.shuffle();
+
+# Fill the shuffled arrays into one multimenzional array
+array <bitmap> fishes[0][0];
+fishes.add ( p_150 );	# index 1
+fishes.add ( p_140 );	# index 2
+fishes.add ( p_130 );	# index 3
+fishes.add ( p_120 );	# index 4
+fishes.add ( p_110 );	# index 5
+
+#===================#
+# DECLARE VARIABLES #
+#===================#
+int level, rounds, repet, score;
+level  = 2;
+rounds = 10;
+repet  = 20;	
+
+############################
+###### FISH FUNCTION #######
+############################
+sub FishLevel (int lvl)
+begin
+
+# Initiate score with zero
+score = 0;
+
+# Loop funtion in n. rouds iterations
+loop int i = 1 until i > rounds
+begin
+	
+	# Shuffle vector for randomizing sound feedback
+	feedback_randomize.shuffle();
+	
+	# Set target button to zero
+	event1.set_target_button(0);
+	
+	#---------------------#
+	# Prepare first trial #
+	#---------------------#
+	# Set correct answer for first trial
+	# Set up stimulus log as 1.40 in every first iteration
+   pic1.set_part(1, fishes[lvl][i]);
+   event1.set_event_code(fishes[lvl][i].description());
+	string target1 = fishes[lvl][i].description();
+	
+	# Event 1 / target buttons; 1 - red, 2 - blue
+	if target1 == "r" then
+      event1.set_target_button( 1 )
+	else
+      event1.set_target_button( 2 );
+   end;
+	
+	#-----------#
+   # Run trial #
+   #-----------#
+   main_trial.present();
+   
+   #----------#
+	# Feedback #
+	#----------#
+   stimulus_data last = stimulus_manager.last_stimulus_data();
+	
+	# Correct feedback
+   if last.type() == stimulus_hit then
+		score = score + 1;
+		# Prepare feedback stimuli
+		if feedback_randomize[1] == true then
+			FEEDBACK_1.present();
+		elseif feedback_randomize[2] == true then
+			FEEDBACK_2.present();
+		elseif feedback_randomize[3] == true then
+			FEEDBACK_3.present();
+		else
+			FEEDBACK_4.present();
+		end;
+      feedbackEvent.set_port_code(1);
+		feedback_trial.present();
+	# Incorrect feedback
+   elseif last.type() == stimulus_incorrect then
+	# Prepare feedback stimuli
+		if feedback_randomize[1] == true then
+			FEEDBACK_1.present();
+		elseif feedback_randomize[2] == true then
+			FEEDBACK_2.present();
+		elseif feedback_randomize[3] == true then
+			FEEDBACK_3.present();
+		else
+			FEEDBACK_4.present();
+		end;
+      feedbackEvent.set_port_code(2);
+		feedback_trial.present();
+	# Missed or totaly wrong feedback
+	else
+		# Prepare feedback stimuli
+		if feedback_randomize[1] == true then
+			FEEDBACK_1.present();
+		elseif feedback_randomize[2] == true then
+			FEEDBACK_2.present();
+		elseif feedback_randomize[3] == true then
+			FEEDBACK_3.present();
+		else
+			FEEDBACK_4.present();
+		end;
+      feedbackEvent.set_port_code(3);
+		feedback_trial.present();
+   end;
+
+   #------------------#
+	# Present feedback #
+	#------------------#
+
+   i = i + 1;
+	event1.set_target_button(0);
+		
+	end
+
+end;
+#########################
+###### FUNCTION END #####
+#########################
+
+
+# This in originaly defined as repet or so
+int rep;
+rep = 20;	# Number of experiment iterations
+
+/*
+Main function of ANS experiment
+-------------------------------
+It uses an void function (defined as sub FishLevel)
+with only one parameter int level, which dermines
+which level subject gets. It is set on default on
+level = 2; that is because 2 is level 1.40 - second
+easiest. If subject failed on first level, it is 
+always possible to drop down the difficulty.
+
+If total score in one level gets lower than 5
+subject gets easiest level. If socres from 5 to 7
+level difficulty is kept and if the score is above
+7 next elvel is more difficult.
+*/
+
+# Debug - tell wich level is on
+	def[level].load(); 
+   if level == 1 then
+		levelTrigger.set_port_code(150);
+	elseif level == 2 then
+		levelTrigger.set_port_code(140);
+	elseif level == 3 then
+		levelTrigger.set_port_code(130);
+	elseif level == 4 then
+		levelTrigger.set_port_code(120);
+	elseif level == 5 then
+		levelTrigger.set_port_code(110);
+	elseif level == 6 then
+		levelTrigger.set_port_code(100);
+	end;
+	lev.present();
+	
+	FishLevel (level);
+
+# Main function will be repeated by the number of rep
+loop int i = 1 until i > rep-1
+begin
+	
+	#-------------#
+	# Check level #
+	#-------------#
+	# Decide if there are any levels left
+	if level < 1 && level > 5 then
+		# Present the treasure trial for break
+		exit.present();
+		break;
+	else
+		
+		#-----------------------#
+		# Adjust level by score #
+		#-----------------------#
+		# Modify level pointer
+		if score < 1 || score > 10 then
+			exit.present();
+			INSTRUCTION_END.present();
+			break;
+		elseif score <= 5 then
+			down.present();
+			level = level - 1;
+			#-------#
+			# Debug #
+			#-------#
+			# Print which level is active on the screen
+			#def[level].load(); tex.set_part( 1, def[level] ); lev.present();
+			FishLevel(level);		
+		elseif score > 7 && score <= 10 then
+			up.present();
+			level = level + 1;
+			#-------#
+			# Debug #
+			#-------#
+			# Print which level is active on the screen
+			#def[level].load(); tex.set_part( 1, def[level] ); lev.present();
+			FishLevel(level);
+		else
+			keep.present();
+			#-------#
+			# Debug #
+			#-------#
+			# Print which level is active on the screen
+			#def[level].load(); tex.set_part( 1, def[level] ); lev.present();
+			FishLevel ( level );	
+		end;
+		
+	end;		
+
+	i = i + 1;
+
+end;

@@ -1,0 +1,64 @@
+Experiment started!
+ID: ANS-01.txt
+===================
+
+Correct: 90%
+RT: 10970 ms
+Level 2.40
+----------
+Correct: 60%
+RT: 2398 ms
+Level 2.30
+----------
+Correct: 80%
+RT: 3057 ms
+Level 2.30
+----------
+Correct: 80%
+RT: 2211 ms
+Level 2.20
+----------
+Correct: 100%
+RT: 2463 ms
+Level 2.10
+----------
+Correct: 80%
+RT: 3378 ms
+Level 2.00
+----------
+Correct: 90%
+RT: 2358 ms
+Level 1.90
+----------
+Correct: 80%
+RT: 1569 ms
+Level 1.80
+----------
+Correct: 70%
+RT: 2274 ms
+Level 1.70
+----------
+Correct: 70%
+RT: 2157 ms
+Level 1.60
+----------
+Correct: 60%
+RT: 3093 ms
+Level 1.50
+----------
+Correct: 70%
+RT: 1663 ms
+Level 1.50
+----------
+Correct: 60%
+RT: 3828 ms
+Level 1.40
+----------
+Correct: 70%
+RT: 1634 ms
+Level 1.40
+----------
+Correct: 80%
+RT: 2163 ms
+Level 1.30
+----------

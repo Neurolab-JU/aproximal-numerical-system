@@ -1,0 +1,10 @@
+Experiment started!
+ID: ANS-01tes5.txt
+===================
+
+Correct: 20%
+RT: 792 ms
+Level 2.40
+----------
+Correct: 20%
+RT: 701 ms

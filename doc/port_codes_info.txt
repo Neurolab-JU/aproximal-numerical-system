@@ -1,0 +1,7 @@
+ANS-2 Experiment triggers
+=========================
+correct answer   = 20
+incorrect answer = 30
+start recording  = 254
+stop recording   = 255
+presented level  = int level (1...15) - lowest = 1, highest level = 15 (it always starts at second 2 level)

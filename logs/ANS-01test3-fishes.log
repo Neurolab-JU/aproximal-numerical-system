@@ -1,0 +1,36 @@
+Scenario - 
+Logfile written - 05/11/2016 12:57:05
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+ANS-01test3	4	Picture	b_2.40	113163	0	1	15166	1	0	next	incorrect	2
+ANS-01test3	4	Response	1	132995	19832	1
+ANS-01test3	7	Picture	r_2.40	148495	0	1	13333	1	0	next	hit	4
+ANS-01test3	7	Response	1	161714	13219	1
+ANS-01test3	10	Picture	r_2.40	176994	0	1	12333	1	0	next	hit	6
+ANS-01test3	10	Response	1	189314	12320	1
+ANS-01test3	12	Response	1	195083	5756	1
+ANS-01test3	12	Response	2	199643	10316	1
+ANS-01test3	13	Picture	r_2.40	204493	0	1	500	1	0	next	incorrect	10
+ANS-01test3	13	Response	2	204924	430	1
+ANS-01test3	16	Picture	r_2.40	220159	0	1	7500	1	0	next	hit	12
+ANS-01test3	16	Response	1	227483	7324	1
+ANS-01test3	19	Picture	b_2.40	242825	0	1	3833	1	0	next	incorrect	14
+ANS-01test3	19	Response	1	246613	3787	1
+ANS-01test3	22	Picture	r_2.40	261825	0	1	4500	1	0	next	incorrect	16
+ANS-01test3	22	Response	2	266293	4468	1
+ANS-01test3	25	Picture	b_2.40	281491	0	1	2667	1	0	next	incorrect	18
+ANS-01test3	25	Response	1	284132	2641	1
+ANS-01test3	28	Picture	b_2.40	299324	0	1	10335	1	0	next	miss	0
+ANS-01test3	28	Quit		299423	99	NA
+
+The following output port codes were not sent because of a conflict on the port.
+Port	Code	Time(ms)
+1	30	13299.5
+1	20	16171.5
+1	20	18931.4
+1	30	20492.4
+1	20	22748.4
+1	30	24661.3
+1	30	26629.3
+1	30	28413.3

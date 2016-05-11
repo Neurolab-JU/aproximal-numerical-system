@@ -1,0 +1,27 @@
+Scenario - 
+Logfile written - 05/11/2016 14:31:17
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+ANS-01tes8	6	Picture	r_2.40	558815	0	1	15166	1	0	next	hit	2
+ANS-01tes8	6	Response	0	784553	225738	1
+ANS-01tes8	9	Picture	b_2.40	799808	0	1	15166	1	0	next	incorrect	4
+ANS-01tes8	9	Response	0	840952	41144	1
+ANS-01tes8	12	Picture	r_2.40	856306	0	1	15166	1	0	next	hit	6
+ANS-01tes8	12	Response	0	893041	36735	1
+ANS-01tes8	15	Picture	b_2.40	908471	0	1	15166	1	0	next	hit	8
+ANS-01tes8	15	Response	0	932331	23860	1
+ANS-01tes8	18	Picture	r_2.40	947803	0	1	10333	1	0	next	hit	10
+ANS-01tes8	18	Response	0	958010	10207	1
+ANS-01tes8	21	Picture	b_2.40	973302	0	1	6000	1	0	next	hit	12
+ANS-01tes8	21	Response	0	979140	5838	1
+ANS-01tes8	24	Picture	r_2.40	994468	0	1	5000	1	0	next	hit	14
+ANS-01tes8	24	Response	0	999370	4901	1
+ANS-01tes8	27	Picture	b_2.40	1014634	0	1	4500	1	0	next	hit	16
+ANS-01tes8	27	Response	0	1018979	4345	1
+ANS-01tes8	30	Picture	r_2.40	1034301	0	1	4500	1	0	next	hit	18
+ANS-01tes8	30	Response	0	1038659	4359	1
+ANS-01tes8	33	Picture	b_2.40	1053967	0	1	7136	198	0	next	hit	20
+ANS-01tes8	33	Response	0	1061059	7092	1
+ANS-01tes8	38	Picture	b_2.30	1084132	0	1	15166	1	0	next	miss	0
+ANS-01tes8	38	Quit		1176118	91986	NA

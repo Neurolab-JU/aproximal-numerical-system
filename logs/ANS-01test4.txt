@@ -1,0 +1,11 @@
+Experiment started!
+ID: ANS-01test4.txt
+===================
+
+Correct: 40%
+RT: 668 ms
+Level 2.40
+----------
+Correct: 50%
+RT: 364 ms
+Experiment ended!
